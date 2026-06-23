@@ -1,0 +1,48 @@
+.jobs-container {
+  display: flex;
+  background: #000000;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.filters {
+  width: 25%;
+  color: white;
+}
+
+.jobs-list {
+  width: 75%;
+  padding-left: 20px;
+}
+
+.search-box {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  background: #000000;
+  border: 1px solid #7e858e;
+  color: white;
+}
+
+.search-btn {
+  background: #272727;
+  border: none;
+  padding: 10px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.filters-container {
+  position: sticky;
+  top: 80px;
+  align-self: flex-start;
+}

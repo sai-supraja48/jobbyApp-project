@@ -1,0 +1,33 @@
+.job-card {
+  background: #272727;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  list-style: none;
+}
+
+.job-header {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.job-title {
+  font-size: 20px;
+}
+
+.job-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.job-desc {
+  margin-top: 15px;
+  color: #f1f5f9;
+}
